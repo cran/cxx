@@ -1,3 +1,3 @@
 cxxtest <- function() {
-    invisible(.C("X_main"))
+    invisible(.C("X_main", PACKAGE = "cxx"))
 }
